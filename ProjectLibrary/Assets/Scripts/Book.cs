@@ -11,6 +11,8 @@ public class Book
     public string Writer;
     public int AllCopyCount;
     public int CopyCurrentCount;
+    public DateTime DeliverDate;
+    
 
     public Book(int isbn, string name, string writer, int allCopyCount)
     {
@@ -18,6 +20,15 @@ public class Book
         Name = name;
         Writer = writer;
         AllCopyCount = allCopyCount;
-        CopyCurrentCount = allCopyCount; 
+        CopyCurrentCount = allCopyCount;
+
+    }
+    public Book(int isbn, string name, string writer, DateTime deliverDate)
+    {
+        ISBN = isbn;
+        Name = name;
+        Writer = writer;
+        DeliverDate = deliverDate;
+
     }
 }

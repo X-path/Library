@@ -18,3 +18,24 @@ MonoBehaviour:
     Writer: wewew
     AllCopyCount: 4
     CopyCurrentCount: 4
+  - ISBN: 125
+    Name: ffff
+    Writer: zzz
+    AllCopyCount: 6
+    CopyCurrentCount: 6
+  - ISBN: 66
+    Name: rr
+    Writer: nn
+    AllCopyCount: 5
+    CopyCurrentCount: 5
+  - ISBN: 88
+    Name: ww
+    Writer: vv
+    AllCopyCount: 5
+    CopyCurrentCount: 5
+  - ISBN: 33
+    Name: yy
+    Writer: oo
+    AllCopyCount: 5
+    CopyCurrentCount: 5
+  lendBookList: []
